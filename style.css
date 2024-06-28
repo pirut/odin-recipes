@@ -1,0 +1,17 @@
+.bg {
+    background-color: darkgrey;
+}
+
+.recipe,
+.recipeheading {
+    font-family: monospace;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+}
+
+.maintext {
+    font-family: monospace;
+    font-size: medium;
+    color: black;
+}
