@@ -1,3 +1,20 @@
+a:link { 
+    text-decoration: none; 
+    color: black;
+  } 
+  a:visited { 
+    text-decoration: none;
+    color: black;
+  } 
+  a:hover { 
+    color: grey;
+    text-decoration: underline; 
+  } 
+  a:active { 
+    text-decoration: none;
+    color: black;
+  }
+
 .bg {
     background-color: darkgrey;
 }
@@ -8,6 +25,10 @@
     font-size: x-large;
     color: black;
     font-weight: bold;
+}
+
+.recipeheading {
+    font-size: xx-large;
 }
 
 .maintext {
