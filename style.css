@@ -1,30 +1,44 @@
-a:link { 
-    text-decoration: none; 
-    color: black;
-  } 
-  a:visited { 
+/*Link Syling*/
+
+a:link {
     text-decoration: none;
     color: black;
-  } 
-  a:hover { 
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
     color: grey;
-    text-decoration: underline; 
-  } 
-  a:active { 
+    text-decoration: underline;
+}
+
+a:active {
     text-decoration: none;
     color: black;
-  }
+}
+
+/*Main Styling*/
 
 .bg {
     background-color: darkgrey;
 }
 
 .recipe,
-.recipeheading {
+.recipeheading,
+.subheading,
+.flavortext {
     font-family: monospace;
     font-size: x-large;
     color: black;
     font-weight: bold;
+    text-align: center;
+}
+
+.recipe {
+    text-align: left;
 }
 
 .recipeheading {
@@ -32,7 +46,35 @@ a:link {
 }
 
 .maintext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 75%;
     font-family: monospace;
     font-size: medium;
     color: black;
+}
+
+.recipephoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subheading {
+    font-size: larger;
+}
+
+.flavortext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 75%;
+    font-size: large;
+    text-align: center;
 }
