@@ -26,6 +26,15 @@ a:active {
     background-color: darkgrey;
 }
 
+.card {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+}
+
 .recipe,
 .recipeheading,
 .subheading,
