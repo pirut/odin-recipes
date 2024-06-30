@@ -26,13 +26,15 @@ a:active {
     background-color: darkgrey;
 }
 
-.card {
+.card,
+.maincard {
     background-color: antiquewhite;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+    width: auto;
     height: auto;
+    margin: 8px;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .recipe,
@@ -52,6 +54,7 @@ a:active {
 
 .recipeheading {
     font-size: xx-large;
+    display: block;
 }
 
 .maintext {
@@ -67,15 +70,15 @@ a:active {
 
 .recipephoto {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 8px auto;
     width: 50%;
-    height: auto;
+    height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .subheading {
     font-size: larger;
+    display: block;
 }
 
 .flavortext {
@@ -86,4 +89,9 @@ a:active {
     width: 75%;
     font-size: large;
     text-align: center;
+}
+
+.maincard {
+    width: 50%;
+    margin: auto;
 }
