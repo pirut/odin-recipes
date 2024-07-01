@@ -26,6 +26,13 @@ a:active {
     background-color: darkgrey;
 }
 
+.flexdiv {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 .card,
 .maincard {
     background-color: antiquewhite;
@@ -33,7 +40,9 @@ a:active {
     width: auto;
     height: auto;
     margin: 8px;
-    display: block;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -69,8 +78,9 @@ a:active {
 }
 
 .recipephoto {
-    display: block;
-    margin: 8px auto;
+    display: flex;
+    flex: auto;
+    margin: 8px;
     width: 50%;
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
